@@ -57,9 +57,9 @@ public class Nqueen {
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < N; j++)
                 if(board[i][j] == 1)
-                    System.out.printf("-"+"\t");
+                    System.out.printf("X"+"\t");
                 else
-                    System.out.printf(board[i][j]+"\t");
+                    System.out.printf("."+"\t");
             System.out.println();
         }
     }
